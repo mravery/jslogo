@@ -1,12 +1,11 @@
 /* General Styles */
 
-@import url(http://fonts.googleapis.com/css?family=Michroma);
-h1 { font-family: "Michroma"; }
+h1 { font-family: "Michroma", "Century Gothic", Consolas, "Andale Mono", monospace; font-weight: lighter;}
 body { font-family: sans-serif; }
 
 
 dt, dd { font-size: 8pt; }
-code { font-family: monospace; }
+code { font-family: Consolas, "Andale Mono", monospace; }
 
 body {
   background-color: #e0e0e0;
@@ -183,7 +182,7 @@ body {
   background-color: transparent;
   overflow: hidden;
   white-space: pre-wrap;
-  font-family: Monospace;
+  font-family: Consolas, "Andale Mono", monospace;
 }
 
 /* User Input */
@@ -205,7 +204,7 @@ body {
   position: absolute;
   overflow: hidden;
   left: 0; top: 0; right: 0; bottom: 0;
-  font-family: monospace;
+  font-family: Consolas, "Andale Mono", monospace;
   display: none;
 }
 
